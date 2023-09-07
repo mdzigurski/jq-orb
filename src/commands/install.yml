@@ -87,7 +87,7 @@ steps:
           JQ_BINARY_URL="https://github.com/stedolan/jq/releases/download/${JQ_VERSION}/jq-osx-amd64"
         else
           # linux version
-          JQ_BINARY_URL="https://github.com/stedolan/jq/releases/download/${JQ_VERSION}/jq-linux64"
+          JQ_BINARY_URL="https://github.com/stedolan/jq/releases/download/${JQ_VERSION}/jq-linux-amd64"
         fi
 
         jqBinary="jq-$PLATFORM"
